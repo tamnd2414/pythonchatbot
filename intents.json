@@ -23,6 +23,39 @@
         {"tag": "opentoday",
          "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
          "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+
+        {"tag": "domain",
+         "patterns": ["what is the domain of Dealer.com account?", "Can you tell me the Dealer.com domain?", 
+                "Do you know the Dealer.com domain?", "what is the Dealer.com working about?", 
+                "What's major of Dealer.com account?, Do you know the bussiness of Dealer?", 
+                "What is the bussiness that Dealer.com has bussiness in?",
+                "What bussiness have Dealer.com been operating in since it was established?", 
+                "What bussiness have Dealer.com operated in since it was established", 
+                ""],
+         "responses": ["Absolutely, automobile", "Automobile is the mojor of Dealer.", 
+                "Dealer is working at automobile field", "Automobile is the main bussiness of Dealer."],
+         "context_set": ""
+        },
+        {"tag": "Address",
+         "patterns": ["What's address of Dealer in USA", "Let me know the Dealer headquarter address in America", 
+                "What's place of the Dealer headquarter?", "What was the headquater of Dealer placed?"],
+         "responses": ["1 Howard St, Burlington, VT 05401, USA", "It's 1 Howard St, Burlington, VT 05401, USA",
+                "at 1 Howard St, Burlington, VT 05401, USA"]
+        },
+        {"tag": "homepage",
+         "patterns": ["What is the homepage of Dealer?", "What is the Dealer website?", "Let me know the website of Dealer?"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        },
+        {"tag": "start date",
+         "patterns": ["When did the Dealer team found in KMS ?", "Can you show me the date that Dealer started to have KMS outsource?",
+                "When did the Dealer become an account of KMS?" ],
+         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        },
+        {"tag": "location",
+         "patterns": ["Where does Cox Automotive locate in KMS?", "Which floor does the Cox team locate in Tan Vien?", 
+                "Can you tell me the Cox team area?"],
+         "responses": ["5th floor", "5th floor - TV office", "the fifth floor"]
         }
    ]
 }

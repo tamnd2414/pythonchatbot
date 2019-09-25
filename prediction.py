@@ -12,7 +12,7 @@ from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
 nltk.download('punkt')
 
-ERROR_THRESHOLD = 0.25
+ERROR_THRESHOLD = 0.75
 class Prediction:
     # This class is mainly used to predict the answer from user's question. 
     # It need below informations:
@@ -89,16 +89,6 @@ class Prediction:
                 for i in self.data["intents"]:
                     # find a tag matching the first result
                     if i['tag'] == results[0][0]:
-                        # set context for this intent if necessary
-                        if 'context_set' in i:
-                            if show_details: print ('context:', i['context_set'])
-                            self.context[userID] = i['context_set']
-                        print (self.context)
-                        # check if this intent is contextual and applies to this user's conversation
-                        if not 'context_filter' in i or \
-                            (userID in self.context and 'context_filter' in i and i['context_filter'] == self.context[userID]):
-                            if show_details: print ('tag:', i['tag'])
-                            # a random response from the intent
-                            return random.choice(i['responses'])
+                        return random.choice(i['responses'])
 
                 results.pop(0)
