@@ -299,6 +299,373 @@
         {"tag": "carelogistics_activities",
          "patterns": ["What are favorite activities of care logistics team?", "What favorite activities of care logistics?"],
          "responses": ["drink bubble tea & eat food"]
-        }
+        },
+
+
+
+        {
+         "tag": "Dealer domain",
+         "patterns": [
+            "what is the domain of Dealer.com account?",
+            "Can you tell me the Dealer.com domain?",
+            "Do you know the Dealer.com domain?",
+            "what is the Dealer.com working about?",
+            "What's major of Dealer.com account?, Do you know the bussiness of Dealer?",
+            "What is the bussiness that Dealer.com has bussiness in?",
+            "What bussiness have Dealer.com been operating in since it was established?",
+            "What bussiness have Dealer.com operated in since it was established"
+         ],
+         "responses": [
+            "Absolutely, automobile",
+            "Automobile is the mojor of Dealer.",
+            "Dealer is working at automobile field",
+            "Automobile is the main bussiness of Dealer."
+         ],
+         "context_set": ""
+      },
+      {
+         "tag": "Dealer Address",
+         "patterns": [
+            "What's address of Dealer in USA",
+            "Let me know the Dealer headquarter address in America",
+            "What's place of the Dealer headquarter?",
+            "What was the headquater of Dealer placed?"
+         ],
+         "responses": [
+            "1 Howard St, Burlington, VT 05401, USA",
+            "It's 1 Howard St, Burlington, VT 05401, USA",
+            "at 1 Howard St, Burlington, VT 05401, USA"
+         ]
+      },
+      {
+         "tag": "Dealer homepage",
+         "patterns": [
+            "What is the homepage of Dealer?",
+            "What is the Dealer website?",
+            "Let me know the website of Dealer?"
+         ],
+         "responses": [
+            "https://dealer.com/"
+         ]
+      },
+      {
+         "tag": "Dealer start date",
+         "patterns": [
+            "When did the Dealer team found in KMS ?",
+            "Can you show me the date that Dealer started to have KMS outsource?",
+            "When did the Dealer become an account of KMS?"
+         ],
+         "responses": [
+            "Mar 26, 2018",
+            "It's Mar 26, 2018"
+         ]
+      },
+      {
+         "tag": "Dealer location",
+         "patterns": [
+            "Where does Cox Automotive locate in KMS?",
+            "Which floor does the Cox team locate in Tan Vien?",
+            "Can you tell me the Cox team area?"
+         ],
+         "responses": [
+            "5th floor",
+            "5th floor - TV office",
+            "the fifth floor"
+         ]
+      },
+      {
+         "tag": "Cox favorite activities",
+         "patterns": [
+            "Do you know the favorite activities of Cox?",
+            "How many favorite activities are there in Cox project?"
+         ],
+         "responses": [
+            "Eat all the time",
+            "Sweet people eat sweet things"
+         ]
+      },
+      {
+         "tag": "Cox fun fact",
+         "patterns": [
+            "Do you know fun fact of Cox?",
+            "How many fun facts are there in Cox project?",
+            "Would you show me fun fact of Cox?",
+            "Please show me the fun fact of Cox?"
+         ],
+         "responses": [
+            "A member of Tuyet Tinh Cox (Cox Automotive Client)",
+            "The Standard of Beauty",
+            "You can call us dear (sweet people) - dear] is short for dealer!",
+            "DDC means Du Dep Chua?",
+            "DR means Dep Roi!"
+         ]
+      },
+      {
+         "tag": "Monetate Address",
+         "patterns": [
+            "What's address of Monetate in USA",
+            "Let me know the Monetate headquarter address in America",
+            "What's place of the Monetate headquarter?",
+            "What was the headquater of Monetate placed?"
+         ],
+         "responses": [
+            "27 E 28th St 8th Floor, New York, NY 10016, USA"
+         ]
+      },
+      {
+         "tag": "Monetate Domain",
+         "patterns": [
+            "what is the domain of Monetate account?",
+            "Can you tell me the Monetate domain?",
+            "Do you know the Monetate domain?",
+            "what is the Monetate working about?",
+            "What's major of Monetate account?, Do you know the bussiness of Dealer?",
+            "What is the bussiness that Monetate has bussiness in?",
+            "What bussiness have Monetate been operating in since it was established?",
+            "What bussiness have Monetate operated in since it was established"
+         ],
+         "responses": [
+            "Marketing Platform, Enterprise Software, Internet, Test and Measurement"
+         ]
+      },
+      {
+         "tag": "Monetate Website",
+         "patterns": [
+            "What is the homepage of Monetate?",
+            "What is the Monetate website?",
+            "Let me know the website of Monetate?"
+         ],
+         "responses": [
+            " https://monetate.com/"
+         ]
+      },
+      {
+         "tag": "Monetate start date",
+         "patterns": [
+            "When did the Dealer team found in KMS ?",
+            "Can you show me the date that Dealer started to have KMS outsource?",
+            "When did the Dealer become an account of KMS?"
+         ],
+         "responses": [
+            "Oct 22, 2018"
+         ]
+      },
+      {
+         "tag": "Monetate Number of members",
+         "patterns": [
+            "How many members are there in Monetate project?",
+            "Do you know the number of members in Monetate project?"
+         ],
+         "responses": [
+            "3"
+         ]
+      },
+      {
+         "tag": "Monetate Location",
+         "patterns": [
+            "Where does Monetate locate in KMS?",
+            "Which floor does the Monetate team locate in Tan Vien?",
+            "Can you tell me the Monetate team area?"
+         ],
+         "responses": [
+            "4th floor - TV office"
+         ]
+      },
+      {
+         "tag": "Monetate favorite activities",
+         "patterns": [
+            "Do you know the favorite activities of Monetate?",
+            "How many favorite activities are there in Monetate project?"
+         ],
+         "responses": [
+            "work together",
+            "drink together",
+            "eat together"
+         ]
+      },
+      {
+         "tag": "Monetate fun fact",
+         "patterns": [
+            "Do you know fun fact of Cox?",
+            "How many fun facts are there in Cox project?",
+            "Would you show me fun fact of Cox?",
+            "Please show me the fun fact of Cox?"
+         ],
+         "responses": [
+            "the shortest deal ever!",
+            "Closed won within 10 days!",
+            "2"
+         ]
+      },
+      {
+         "tag": "Agreement express Address",
+         "patterns": [
+            "What's address of Agreement express in Canada",
+            "Let me know the Agreement express headquarter address in Canada",
+            "What's place of the Agreement express headquarter?",
+            "What was the headquater of Agreement express placed?"
+         ],
+         "responses": [
+            "625 Howe St. Suite 900 Vancouver",
+            "British Columbia Canada V6C 2T6"
+         ]
+      },
+      {
+         "tag": "Agreement Express Domain",
+         "patterns": [
+            "what is the domain of Agreement Express account?",
+            "Can you tell me the Agreement Express domain?",
+            "Do you know the Agreement Express domain?",
+            "what is the Agreement Express working about?",
+            "What's major of Agreement Express account?",
+            "Do you know the bussiness of Agreement Express?",
+            "What is the bussiness that Agreement Express has bussiness in?",
+            "What bussiness have Agreement Express been operating in since it was established?",
+            "What bussiness have Agreement Express operated in since it was established"
+         ],
+         "responses": [
+            "Fintech"
+         ]
+      },
+      {
+         "tag": "Agreement Express Website",
+         "patterns": [
+            "What is the homepage of Agreement Express?",
+            "What is the Agreement Express website?",
+            "Let me know the website of Agreement Express?"
+         ],
+         "responses": [
+            "https://agreementexpress.com/"
+         ]
+      },
+      {
+         "tag": "Agreement express start date",
+         "patterns": [
+            "When did the Agreement express team found in KMS ?",
+            "Can you show me the date that Agreement express started to have KMS outsource?",
+            "When did the Agreement express become an account of KMS?"
+         ],
+         "responses": [
+            "Sep 16, 2019"
+         ]
+      },
+      {
+         "tag": "Agreement express Number of members",
+         "patterns": [
+            "How many members are there in Agreement express project?",
+            "Do you know the number of members in Agreement express project?"
+         ],
+         "responses": [
+            "16"
+         ]
+      },
+      {
+         "tag": "Agreement express Location",
+         "patterns": [
+            "Where does Agreement express locate in KMS?",
+            "Which floor does the Agreement express team locate in Tan Vien?",
+            "Can you tell me the Agreement express team area?"
+         ],
+         "responses": [
+            "4th floor - TV office"
+         ]
+      },
+      {
+         "tag": "Agreement express favorite activities",
+         "patterns": [
+            "Do you know the favorite activities of Agreement express?",
+            "How many favorite activities are there in Agreement express project?"
+         ],
+         "responses": [
+            "work together",
+            "drink together",
+            "eat together"
+         ]
+      },
+      {
+         "tag": "Autotrade Address",
+         "patterns": [
+            "What's address of Auto trade in USA",
+            "Let me know the Auto trade headquarter address in America",
+            "What's place of the Auto trade headquarter?",
+            "What was the headquater of Auto trade placed?"
+         ],
+         "responses": [
+            "3003 Summit Blvd NE #200, Atlanta, GA 30319, USA"
+         ]
+      },
+      {
+         "tag": "Autotrade Domain",
+         "patterns": [
+            "what is the domain of Autotrade account?",
+            "Can you tell me the Autotrade domain?",
+            "Do you know the Autotrade domain?",
+            "what is the Autotrade working about?",
+            "What's major of Autotrade account?",
+            "Do you know the bussiness of Autotrade?",
+            "What is the bussiness that Autotrade has bussiness in?",
+            "What bussiness have Autotrade been operating in since it was established?",
+            "What bussiness have Autotrade operated in since it was established"
+         ],
+         "responses": [
+            "Automobile"
+         ]
+      },
+      {
+         "tag": "Autotrade Website",
+         "patterns": [
+            "What is the homepage of Autotrade?",
+            "What is the Autotrade website?",
+            "Let me know the website of Autotrade?"
+         ],
+         "responses": [
+            "https://www.autotrader.com/"
+         ]
+      },
+      {
+         "tag": "Autotrade start date",
+         "patterns": [
+            "When did the Autotrade team found in KMS ?",
+            "Can you show me the date that Autotrade started to have KMS outsource?",
+            "When did the Autotrade become an account of KMS?"
+         ],
+         "responses": [
+            "Jan 1, 2014"
+         ]
+      },
+      {
+         "tag": "Autotrade Number of members",
+         "patterns": [
+            "How many members are there in Autotrade project?",
+            "Do you know the number of members in Autotrade project?"
+         ],
+         "responses": [
+            "7"
+         ]
+      },
+      {
+         "tag": "Autotrade Location",
+         "patterns": [
+            "Where does Autotrade locate in KMS?",
+            "Which floor does the Autotrade team locate in Tan Vien?",
+            "Can you tell me the Autotrade team area?"
+         ],
+         "responses": [
+            "5th floor - TV office"
+         ]
+      },
+      {
+         "tag": "Autotrade fun fact",
+         "patterns": [
+            "Do you know fun fact of Autotrade?",
+            "How many fun facts are there in Autotrade project?",
+            "Would you show me fun fact of Autotrade?",
+            "Please show me the fun fact of Autotrade?"
+         ],
+         "responses": [
+            "A member of Tuyet Tinh Cox (Cox Automotive Client)",
+            "AutoTrader is under the guardian of a friendly Autobot (Bumblebee)"
+         ]
+      }
    ]
 }
