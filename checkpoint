@@ -1,2 +1,2 @@
-model_checkpoint_path: "C:\\Users\\Andy Nguyen\\Documents\\PythonChatBot\\pythonchatbot\\model.tflearn"
-all_model_checkpoint_paths: "C:\\Users\\Andy Nguyen\\Documents\\PythonChatBot\\pythonchatbot\\model.tflearn"
+model_checkpoint_path: "D:\\ChatBot\\KiboATT\\pythonchatbot\\model.tflearn"
+all_model_checkpoint_paths: "D:\\ChatBot\\KiboATT\\pythonchatbot\\model.tflearn"
