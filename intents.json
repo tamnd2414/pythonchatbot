@@ -12,50 +12,293 @@
          "patterns": ["Thanks", "Thank you", "That's helpful"],
          "responses": ["Happy to help!", "Any time!", "My pleasure"]
         },
-        {"tag": "hours",
-         "patterns": ["What hours are you open?", "What are your hours?", "When are you open?" ],
-         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        {"tag": "account_count",
+         "patterns": ["How many accounts are there in A+", "How many projects are there in A+", "What are the A+ Accounts?", "Can you list all A+ accounts?"],
+         "responses": ["A+ holds about 11 accounts", "There are 11 accounts in BU A+", "We have 11 accounts in BU A+"]
         },
-        {"tag": "payments",
-         "patterns": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
-         "responses": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+		
+		
+		
+		{
+        "tag": "HMS_address",
+        "patterns": ["Where is the HMS CLOUDHMS?", "Do you know address of HMS CLOUDHMS?", "What is the HMS CLOUDHMS's address?"],
+        "responses": ["ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC", "You can find HMS CLOUDHMS at ETOWN Central, Floor 24th, 11 Doan Van Bo, District 4, HCMC"]
+		}, 
+		{
+			"tag": "HMS_bussiness",
+			"patterns": ["What is the business of HMS CLOUDHMS?", "What is the domain if HMS CLOUDHMS?", "Do you know the business of HMS CLOUDHMS?"],
+			"responses": ["Hospitality"]
+		},
+		{
+			"tag": "HMS_startDate",
+			"patterns": ["When dose HMS CLOUDHMS start?", "What is the start date of HMS CLOUDHMS?", "What is the date that HMS CLOUDHMS start?"],
+			"responses": ["June 10, 2019", "At June 10, 2019", "The start date of HMS CLOUDHMS is June 10, 2019"]
+		},
+		{
+			"tag": "HMS_numberOfMembers",
+			"patterns": ["How many members are there in HMS CLOUDHMS?", "What is the number of members in HMS CLOUDHMS?", "Do you know the number of members in HMS CLOUDHMS?"],
+			"responses": ["18+", "Over 18", "I don't remember, but they are 18+"]
+		},
+		{
+			"tag": "HMS_location",
+			"patterns": ["What is the location of HMS CLOUDHMS?", "Where dose HMS CLOUDHMS locate?"],
+			"responses": ["4th floor - TV office", "HMS CLOUDHMS locate at 4th floor - TV office", "You can see HMS CLOUDHMS at 4th floor - TV office", "4th floor - TV office is location of HMS CLOUDHMS"]
+		},
+		{
+			"tag": "HMS_funcFact",
+			"patterns": ["What is fun fact of HMS CLOUDHMS?", "What is HMS CLOUDHMS's fun fact?"],
+			"responses": ["Practice Vietnamese & work onsite", "Working onsite & praticing Vietnamese"]
+		},
+		{
+			"tag": "babyshark_startDate",
+			"patterns": ["When dose Baby Shark start?", "What is the start date of Baby Shark?", "What is the date that Baby Shark start?"],
+			"responses": ["August 2018", "At August 2018", "The start date of Baby Shark is August 2018"]
+		},
+		{
+			"tag": "babyshark_numberOfMembers",
+			"patterns": ["How many members are there in Baby Shark?", "What is the number of members in Baby Shark?", "Do you know the number of members in Baby Shark?"],
+			"responses": ["Ramp up & down anytime", "Can up so fast & down so fast too"]
+		},
+		{
+			"tag": "babyshark_location",
+			"patterns": ["What is the location of Baby Shark?", "Where dose Baby Shark locate?"],
+			"responses": ["4th floor - TV office", "Baby Shark locate at 4th floor - TV office", "You can see Baby Shark at 4th floor - TV office", "4th floor - TV office is location of Baby Shark"]
+		},
+		{
+			"tag": "babyshark_funcFact",
+			"patterns": ["What is fun fact of Baby Shark?", "What is Baby Shark's fun fact?"],
+			"responses": ["learn, learn more, learn forever", "lifelong learning"]
+		},
+		{
+			"tag": "KBB_address",
+			"patterns": ["Where is the KBB?", "Do you know address of KBB?", "What is the KBB's address?"],
+			"responses": ["195 Technology Dr, Irvine, CA 92618, USA", "195 Technology Dr, Irvine, CA 92618, USA"]
+		}, 
+		{
+			"tag": "KBB_bussiness",
+			"patterns": ["What is the business of KBB?", "What is the domain if KBB?", "Do you know the business of KBB?"],
+			"responses": ["Automobile"]
+		},
+		{
+			"tag": "KBB_startDate",
+			"patterns": ["When dose KBB start?", "What is the start date of KBB?", "What is the date that KBB start?"],
+			"responses": ["Jan 1, 2014", "At Jan 1, 2014", "The start date of KBB is Jan 1, 2014"]
+		},
+		{
+			"tag": "KBB_numberOfMembers",
+			"patterns": ["How many members are there in KBB?", "What is the number of members in KBB?", "Do you know the number of members in KBB?"],
+			"responses": ["45", "Forty five"]
+		},
+		{
+			"tag": "KBB_location",
+			"patterns": ["What is the location of KBB?", "Where dose KBB locate?"],
+			"responses": ["5th floor - TV office", "KBB locate at 5th floor - TV office", "You can see KBB at 5th floor - TV office", "5th floor - TV office is location of KBB"]
+		},
+		{
+			"tag": "KBB_funcFact",
+			"patterns": ["What is fun fact of KBB?", "What is KBB's fun fact?"],
+			"responses": ["A member of 'Tuyet Tinh Cox' (Cox Automotive Client), Stable COE audit rating of 4.3, Nude Job (Nghiep Tran) is the face of every birth - month party ... except his"]
+		},
+		{
+			"tag": "KBB_favoriteActivities", 
+			"patterns": ["What is the favorite activities of KBB?", "List favorites activities of KBB?"],
+			"responses": ["Learning - Sharing - Playing - Caring - Listening and many things, ...", ""]
+		}, 
+		{
+			"tag": "KBB_website",
+			"patterns": ["What is the KBB's website?", "Could you provide me the KBB's website?"], 
+			"responses": ["https://www.KBB.com/", "The website of KBB is https://www.KBB.com/"]
+		},
+		{
+			"tag": "KBB_nghiep",
+			"patterns": ["Who is the face of every birth - month party ... except his?", "Who has nickname Nude Job?", "Who dose except every birth - mobth party?"],
+			"responses": ["Nghiep Tran", "He is Nghiep Tran"]
+		},
+		{
+			"tag": "KBB_cox",
+			"patterns": ["What team is the parent of KBB?", "What team that KBB is a member of it?"],
+			"responses": ["Cox", "Tuyet tinh Cox", "Cox Automotive Client"]
+		},
+
+		{
+			"tag": "HotSchedules_address",
+			"patterns": ["Where is the HotSchedules?", "Do you know address of HotSchedules?", "What is the HotSchedules's address?"],
+			"responses": ["6504 Bridge Point Pkwy Ste 425, Austin, TX 78730, USA", "Address of HotSchedules is 6504 Bridge Point Pkwy Ste 425, Austin, TX 78730, USA"]
+		}, 
+		{
+			"tag": "HotSchedules_bussiness",
+			"patterns": ["What is the business of HotSchedules?", "What is the domain if HotSchedules?", "Do you know the business of HotSchedules?"],
+			"responses": [" Hospitality Management"]
+		},
+		{
+			"tag": "HotSchedules_startDate",
+			"patterns": ["When dose HotSchedules start?", "What is the start date of HotSchedules?", "What is the date that HotSchedules start?"],
+			"responses": ["May 1, 2017", "At May 1, 2017", "The start date of HotSchedules is May 1, 2017"]
+		},
+		{
+			"tag": "HotSchedules_endDate",
+			"patterns": ["When dose HotSchedules end?", "What is the end date of HotSchedules?", "What is the date that HotSchedules end?"],
+			"responses": ["Sep 20, 2019", "At Sep 20, 2019", "The end date of HotSchedules is Sep 20, 2019"]
+		},
+		{
+			"tag": "HotSchedules_timelife",
+			"patterns": ["What is the time life if HotSchedules?", "What is the start date and end date of HotSchedules?"],
+			"responses": ["Start date: May 1, 2017 - End date: May 1, 2017", "From May 1, 2017 to May 1, 2017", "I remember about 872 days, it a sad story"]
+		},
+		{
+			"tag": "HotSchedules_numberOfMembers",
+			"patterns": ["How many members are there in HotSchedules?", "What is the number of members in HotSchedules?", "Do you know the number of members in HotSchedules?"],
+			"responses": ["37", "Thirty seven"]
+		},
+		{
+			"tag": "HotSchedules_location",
+			"patterns": ["What is the location of HotSchedules?", "Where dose HotSchedules locate?"],
+			"responses": ["4th floor - TV office", "HotSchedules locate at 4th floor - TV office", "You can see HotSchedules at 4th floor - TV office", "4th floor - TV office is location of HotSchedules"]
+		},
+		{
+			"tag": "HotSchedules_funcFact",
+			"patterns": ["What is fun fact of HotSchedules?", "What is HotSchedules's fun fact?"],
+			"responses": ["The biggest project in KMS, We have internal CEO team which means Chief Entertainment Officers"]
+		},
+		{
+			"tag": "HotSchedules_website",
+			"patterns": ["What is the HotSchedules's website?", "Could you provide me the HotSchedules's website?"], 
+			"responses": ["https://www.hotschedules.com/", "The website of HotSchedules is https://www.hotschedules.com/"]
+		},
+
+		{
+			"tag": "HS_address",
+			"patterns": ["Where is the HS?", "Do you know address of HS?", "What is the HS's address?"],
+			"responses": ["6504 Bridge Point Pkwy Ste 425, Austin, TX 78730, USA", "Address of HS is 6504 Bridge Point Pkwy Ste 425, Austin, TX 78730, USA"]
+		}, 
+		{
+			"tag": "HS_bussiness",
+			"patterns": ["What is the business of HS?", "What is the domain if HS?", "Do you know the business of HS?"],
+			"responses": [" Hospitality Management"]
+		},
+		{
+			"tag": "HS_startDate",
+			"patterns": ["When dose HS start?", "What is the start date of HS?", "What is the date that HS start?"],
+			"responses": ["May 1, 2017", "At May 1, 2017", "The start date of HS is May 1, 2017"]
+		},
+		{
+			"tag": "HS_endDate",
+			"patterns": ["When dose HS end?", "What is the end date of HS?", "What is the date that HS end?"],
+			"responses": ["Sep 20, 2019", "At Sep 20, 2019", "The end date of HS is Sep 20, 2019"]
+		},
+		{
+			"tag": "HS_timelife",
+			"patterns": ["What is the time life if HS?", "What is the start date and end date of HS?"],
+			"responses": ["Start date: May 1, 2017 - End date: May 1, 2017", "From May 1, 2017 to May 1, 2017", "I remember about 872 days, it a sad story"]
+		},
+		{
+			"tag": "HS_numberOfMembers",
+			"patterns": ["How many members are there in HS?", "What is the number of members in HS?", "Do you know the number of members in HS?"],
+			"responses": ["37", "Thirty seven"]
+		},
+		{
+			"tag": "HS_location",
+			"patterns": ["What is the location of HS?", "Where dose HS locate?"],
+			"responses": ["4th floor - TV office", "HS locate at 4th floor - TV office", "You can see HS at 4th floor - TV office", "4th floor - TV office is location of HS"]
+		},
+		{
+			"tag": "HS_funcFact",
+			"patterns": ["What is fun fact of HS?", "What is HS's fun fact?"],
+			"responses": ["The biggest project in KMS, We have internal CEO team which means Chief Entertainment Officers"]
+		},
+		{
+			"tag": "HS_website",
+			"patterns": ["What is the HS's website?", "Could you provide me the HS's website?"], 
+			"responses": ["https://www.HS.com/", "The website of HS is https://www.HS.com/"]
+		},
+		
+
+
+        {"tag": "medidata_address",
+         "patterns": ["What is the address of Medidata?", "Where is Mediadata headquarter located?", "Could you tell me the address of Medidata headquarter?"],
+         "responses": ["350 Hudson Street, New York, NY 10014, USA"]
         },
-        {"tag": "opentoday",
-         "patterns": ["Are you open today?", "When do you open today?", "What are your hours today?"],
-         "responses": ["We're open every day from 9am-9pm", "Our hours are 9am-9pm every day"]
+        {"tag": "medidata_domain",
+         "patterns": ["What is Medidata business domain?", "What is Medidata domain?", "What is Medidata is about?"],
+         "responses": ["Medidata business domain is Helthcare"]
+        },
+        {"tag": "medidata_website",
+         "patterns": ["What is Medidata website?", "Could you tell me the website of Medidata?", "Mediadata website?"],
+         "responses": ["https://www.medidata.com/en/"]
+        },
+        {"tag": "medidata_startdate",
+         "patterns": ["When did Medidata become one of A+ accounts?", "What was the start date of Medidata at KMS?"],
+         "responses": ["Aug 5, 2019"]
+        },
+        {"tag": "medidata_member_count",
+         "patterns": ["How many members are there in Medidata project?", "What is the number of members in Medidata?", "Medidata number of members?"],
+         "responses": ["There are 2 members.", "2"]
+        },
+        {"tag": "medidata_location",
+         "patterns": ["Where is Medidata team located at KMS?", "Which office of KMS is Medidata team at?", "Where is Medidata team at?"],
+         "responses": ["4th floor - TV office"]
+        },
+        {"tag": "medidata_activities",
+         "patterns": ["What are favorite activities of Medidata team?", "What favorite activities of Medidata?"],
+         "responses": ["drinking, singing & exploring new technology"]
         },
 
-        {"tag": "domain",
-         "patterns": ["what is the domain of Dealer.com account?", "Can you tell me the Dealer.com domain?", 
-                "Do you know the Dealer.com domain?", "what is the Dealer.com working about?", 
-                "What's major of Dealer.com account?, Do you know the bussiness of Dealer?", 
-                "What is the bussiness that Dealer.com has bussiness in?",
-                "What bussiness have Dealer.com been operating in since it was established?", 
-                "What bussiness have Dealer.com operated in since it was established", 
-                ""],
-         "responses": ["Absolutely, automobile", "Automobile is the mojor of Dealer.", 
-                "Dealer is working at automobile field", "Automobile is the main bussiness of Dealer."],
-         "context_set": ""
+        {"tag": "kibo_address",
+         "patterns": ["What is the address of kibo?", "Where is Mediadata headquarter located?", "Could you tell me the address of kibo headquarter?"],
+         "responses": ["717 N Harwood St STE 1900, Dallas, TX 75201, USA"]
         },
-        {"tag": "Address",
-         "patterns": ["What's address of Dealer in USA", "Let me know the Dealer headquarter address in America", 
-                "What's place of the Dealer headquarter?", "What was the headquater of Dealer placed?"],
-         "responses": ["1 Howard St, Burlington, VT 05401, USA", "It's 1 Howard St, Burlington, VT 05401, USA",
-                "at 1 Howard St, Burlington, VT 05401, USA"]
+        {"tag": "kibo_domain",
+         "patterns": ["What is kibo business domain?", "What is kibo domain?", "What is kibo is about?"],
+         "responses": ["kibo business domain is about eCommerce platform, services and expertise designed specifically for mid to upper tier retailers"]
         },
-        {"tag": "homepage",
-         "patterns": ["What is the homepage of Dealer?", "What is the Dealer website?", "Let me know the website of Dealer?"],
-         "responses": ["Happy to help!", "Any time!", "My pleasure"]
+        {"tag": "kibo_website",
+         "patterns": ["What is kibo website?", "Could you tell me the website of kibo?", "Mediadata website?"],
+         "responses": ["https://kibocommerce.com/"]
         },
-        {"tag": "start date",
-         "patterns": ["When did the Dealer team found in KMS ?", "Can you show me the date that Dealer started to have KMS outsource?",
-                "When did the Dealer become an account of KMS?" ],
-         "responses": ["We're open every day 9am-9pm", "Our hours are 9am-9pm every day"]
+        {"tag": "kibo_startdate",
+         "patterns": ["When did kibo become one of A+ accounts?", "What was the start date of kibo at KMS?"],
+         "responses": ["Jan 1, 2010"]
         },
-        {"tag": "location",
-         "patterns": ["Where does Cox Automotive locate in KMS?", "Which floor does the Cox team locate in Tan Vien?", 
-                "Can you tell me the Cox team area?"],
-         "responses": ["5th floor", "5th floor - TV office", "the fifth floor"]
+        {"tag": "kibo_member_count",
+         "patterns": ["How many members are there in kibo project?", "What is the number of members in kibo?", "kibo number of members?"],
+         "responses": ["There are 20 members.", "20"]
+        },
+        {"tag": "kibo_location",
+         "patterns": ["Where is kibo team located at KMS?", "Which office of KMS is kibo team at?", "Where is kibo team at?"],
+         "responses": ["5th floor - TV office"]
+        },
+        {"tag": "kibo_activities",
+         "patterns": ["What are favorite activities of kibo team?", "What favorite activities of kibo?"],
+         "responses": ["Eating, Shopping, Playing PES and Boarding Games, Monthly birthday party & gift unpack"]
+        },
+
+        {"tag": "carelogistics_address",
+         "patterns": ["What is the address of care logistics?", "Where is Mediadata headquarter located?", "Could you tell me the address of care logistics headquarter?"],
+         "responses": ["2655 Northwinds Pkwy, Alpharetta, GA 30009, USA"]
+        },
+        {"tag": "carelogistics_domain",
+         "patterns": ["What is care logistics business domain?", "What is care logistics domain?", "What is care logistics is about?"],
+         "responses": ["Care Logistics business domain is Helthcare"]
+        },
+        {"tag": "carelogistics_website",
+         "patterns": ["What is care logistics website?", "Could you tell me the website of care logistics?", "Mediadata website?"],
+         "responses": ["https://www.carelogistics.com/"]
+        },
+        {"tag": "carelogistics_startdate",
+         "patterns": ["When did care logistics become one of A+ accounts?", "What was the start date of care logistics at KMS?"],
+         "responses": ["August 2014"]
+        },
+        {"tag": "carelogistics_member_count",
+         "patterns": ["How many members are there in care logistics project?", "What is the number of members in care logistics?", "care logistics number of members?"],
+         "responses": ["There are 6 members.", "6"]
+        },
+        {"tag": "carelogistics_location",
+         "patterns": ["Where is care logistics team located at KMS?", "Which office of KMS is care logistics team at?", "Where is care logistics team at?"],
+         "responses": ["4th floor - TV office"]
+        },
+        {"tag": "carelogistics_activities",
+         "patterns": ["What are favorite activities of care logistics team?", "What favorite activities of care logistics?"],
+         "responses": ["drink bubble tea & eat food"]
         }
    ]
 }
